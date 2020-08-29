@@ -53,6 +53,22 @@
         document.write('s <= t : &nbsp', s <= t);
         document.write('<br>');
         document.write('s ! t : &nbsp', s != 30);
+
+        // logical Operator
+        // (&&, ||, !)
+        document.write("<h3>Logical Operator</h3>");
+        var u = 10;
+        var v =15;
+
+        document.write('And operator : &nbsp', (u<v) && (v>u))
+        // And operator both side true then result true otherwise false
+        document.write('<br>');
+
+        document.write('OR operator : &nbsp', (u<v) || (v<u))
+        //OR operator atlist one side true then result true otherwise  false
+        document.write('<br>');
+
+        document.write('Not operator: &nbsp', ! (u<v));
     </script>
 </body>
 </html>
