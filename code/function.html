@@ -15,15 +15,25 @@
         test ();
         document.write("<br>============<br>");
 
+
         // Dynamic Function make
         function name (firstName,lastName) {
             var fullName = firstName+ ' ' +lastName;
-            document.write(fullName);
+            return fullName;
         }
 
-        name ('Shaeed Al ','Hasan');
+        document.write (name ('Shaeed Al ','Hasan'));
         document.write('<br>============<br>');
-        name ('Siam','Shaeed');
+        document.write(name ('Siam','Shaeed'));
+
+
+        //Dynamic function practice
+        document.write('<br>');
+        function practice (firstName, lastName) {
+            var fullName = firstName+ ' ' +lastName;
+            return fullName;
+        }
+        document.write (practice('Siam','Patoari'));
     </script>
 </body>
 </html>
