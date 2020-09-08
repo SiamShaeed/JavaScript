@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice For javaScript</title>
+</head>
+<body>
+  <!-- getElementById -->
+    <h2 id="heading" class="test">getElementById</h2>
+    <input type = "text" value="Hellow" id="input">
+    <script>
+      var headerTag = document.getElementById("heading");
+      alert (headerTag.innerHTML = 'i love Bangladesh');
+
+      var inputTag = document.getElementById("input");
+      inputTag.value="Enter Your Name Here";
+
+      alert (headerTag.getAttribute('class'));
+      headerTag.setAttribute('style', 'color:red');
+
+    </script>
+</body>
+</html>
